@@ -1,0 +1,104 @@
+/* CSS reset */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+input {
+    border: 1px solid #b0b0b0;
+    padding: 3px 5px 4px;
+    color: #979797;
+    width: 190px;
+}
+
+address, caption, cite, code, dfn, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+}
+
+/*main styling*/
+
+body {
+    font-size: 12pt;
+}
+
+main {
+    max-width: 984px;
+    padding: 0px 20px 20px;
+    margin: 0 auto;
+}
+.header1{
+    height:50px;
+    background-color: red;
+}
+li{
+    display: inline;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+h2 {
+    font-size: 2em;
+    color: red;
+    text-align: center;
+}
+footer{
+    background-color: #979797;
+    text-align: center;
+}
+p{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* On screens that are 600px or less, set the background color to blue */
+
+/* @media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    .weg {
+        visibility: hidden;
+    }
+}
+@media screen and (min-width: 900px){
+    body {
+        background-color: yellowgreen;
+    }
+} */
